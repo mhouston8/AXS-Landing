@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 export default function Navbar() {
@@ -8,7 +9,9 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h2>AxioScan</h2>
+          <Link to="/">
+            <h2>AxioScan</h2>
+          </Link>
         </div>
         <button 
           className="navbar-toggle"

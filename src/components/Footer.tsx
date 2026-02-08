@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 export default function Footer() {
@@ -32,8 +33,8 @@ export default function Footer() {
           <div className="footer-section">
             <h4 className="footer-title">Legal</h4>
             <ul className="footer-links">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link to="/terms-of-service">Terms of Service</Link></li>
               <li><a href="#">Cookie Policy</a></li>
               <li><a href="#">Security</a></li>
             </ul>
