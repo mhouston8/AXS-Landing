@@ -7,9 +7,16 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3 className="footer-logo">AxioScan</h3>
+            <div className="footer-logo-container">
+              <img 
+                src="/assets/axio-scan-app-icon.png" 
+                alt="AxioScan" 
+                className="footer-logo-icon"
+              />
+              <h3 className="footer-logo">AxioScan</h3>
+            </div>
             <p className="footer-description">
-              Turn your iPhone or iPad into a powerful document scanner. Capture, edit, and export documents with professional tools.
+              Turn your mobile device into a powerful document scanner. Capture, edit, and export documents with professional tools.
             </p>
           </div>
           <div className="footer-section">
