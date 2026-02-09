@@ -6,29 +6,29 @@ export default function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Scan Documents Instantly
-            <span className="hero-highlight"> Anywhere, Anytime</span>
+            Smart Document Scanning
+            <span className="hero-highlight"> for Mobile Devices</span>
           </h1>
           <p className="hero-description">
-            Transform your physical documents into high-quality digital files with AI-powered 
-            scanning. Fast, accurate, and secure document management for the modern world.
+            Capture documents with automatic edge detection, edit them with professional tools, 
+            and export in the format that you need. Your all-in-one document scanning solution.
           </p>
           <div className="hero-buttons">
-            <button className="hero-button primary">Start Scanning Free</button>
-            <button className="hero-button secondary">Watch Demo</button>
+            <button className="hero-button primary">Download on App Store</button>
+            <button className="hero-button secondary">Learn More</button>
           </div>
           <div className="hero-stats">
             <div className="stat">
-              <div className="stat-number">10M+</div>
-              <div className="stat-label">Documents Scanned</div>
+              <div className="stat-number">Smart</div>
+              <div className="stat-label">Edge Detection</div>
             </div>
             <div className="stat">
-              <div className="stat-number">50K+</div>
-              <div className="stat-label">Active Users</div>
+              <div className="stat-number">Professional</div>
+              <div className="stat-label">Editing Tools</div>
             </div>
             <div className="stat">
-              <div className="stat-number">99.9%</div>
-              <div className="stat-label">Accuracy Rate</div>
+              <div className="stat-number">Multiple</div>
+              <div className="stat-label">Export Formats</div>
             </div>
           </div>
         </div>

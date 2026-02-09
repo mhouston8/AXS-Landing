@@ -23,7 +23,6 @@ export default function Navbar() {
         <ul className={`navbar-menu ${isMenuOpen ? 'navbar-menu-open' : ''}`}>
           <li><a href="#features" onClick={() => setIsMenuOpen(false)}>Features</a></li>
           <li><a href="#how-it-works" onClick={() => setIsMenuOpen(false)}>How It Works</a></li>
-          <li><a href="#pricing" onClick={() => setIsMenuOpen(false)}>Pricing</a></li>
           <li><button className="navbar-cta">Get Started</button></li>
         </ul>
       </div>

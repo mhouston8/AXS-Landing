@@ -6,13 +6,13 @@ export default function CTA() {
       <div className="cta-container">
         <h2 className="cta-title">Ready to Transform Your Documents?</h2>
         <p className="cta-description">
-          Join thousands of users who have streamlined their document workflow with AxioScan
+          Start scanning, editing, and managing your documents like a pro. Download AxioScan free from the App Store.
         </p>
         <div className="cta-buttons">
-          <button className="cta-button primary">Get Started Free</button>
-          <button className="cta-button secondary">Contact Sales</button>
+          <button className="cta-button primary">Download on App Store</button>
+          <button className="cta-button secondary">Learn More</button>
         </div>
-        <p className="cta-note">No credit card required • Free 14-day trial</p>
+        <p className="cta-note">Available for iPhone and iPad • Free to download</p>
       </div>
     </section>
   )

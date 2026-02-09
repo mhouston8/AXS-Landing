@@ -9,23 +9,23 @@ interface Step {
 const steps: Step[] = [
   {
     number: '1',
-    title: 'Open the App',
-    description: 'Launch AxioScan on your device and grant camera permissions.'
+    title: 'Download & Open',
+    description: 'Get AxioScan from the App Store. Open the app and grant camera permissions to enable full scanning capabilities.'
   },
   {
     number: '2',
-    title: 'Point & Scan',
-    description: 'Aim your camera at the document. Our AI automatically detects edges and captures the perfect scan.'
+    title: 'Scan Your Document',
+    description: 'Use Smart Scan with automatic edge detection to capture your document. Or import from your photo library or files.'
   },
   {
     number: '3',
-    title: 'Enhance & Edit',
-    description: 'Automatically enhance image quality, adjust brightness, and crop to perfection.'
+    title: 'Edit & Enhance',
+    description: 'Crop, rotate, adjust brightness and contrast. Apply filters, remove backgrounds, or add annotations and signatures.'
   },
   {
     number: '4',
-    title: 'Save & Share',
-    description: 'Export to your preferred format and share instantly via email, cloud storage, or messaging apps.'
+    title: 'Export & Share',
+    description: 'Export as PDF, JPEG, or PNG. Share directly from the app or save securely to cloud storage for access anywhere.'
   }
 ]
 
@@ -36,7 +36,7 @@ export default function HowItWorks() {
         <div className="how-it-works-header">
           <h2 className="how-it-works-title">How It Works</h2>
           <p className="how-it-works-subtitle">
-            Get started in minutes. No complicated setup required.
+            No complicated setup. Just download, scan, and enjoy professional document management.
           </p>
         </div>
         <div className="steps">

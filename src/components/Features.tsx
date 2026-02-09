@@ -8,34 +8,34 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    icon: '⚡',
-    title: 'Lightning Fast',
-    description: 'Scan documents in seconds with our optimized scanning engine. No waiting, no delays.'
-  },
-  {
-    icon: '🤖',
-    title: 'AI-Powered OCR',
-    description: 'Advanced optical character recognition extracts text with 99.9% accuracy from any document.'
-  },
-  {
-    icon: '🔒',
-    title: 'Secure & Private',
-    description: 'Your documents are encrypted end-to-end. We never store or access your data without permission.'
-  },
-  {
-    icon: '📱',
-    title: 'Multi-Platform',
-    description: 'Works seamlessly on iOS, Android, and Web. Scan from anywhere, access everywhere.'
+    icon: '📷',
+    title: 'Scan & Import',
+    description: 'Smart Scan with automatic edge detection. Import from your photo library or files with ease.'
   },
   {
     icon: '📄',
-    title: 'Multiple Formats',
-    description: 'Export to PDF, Word, Excel, or images. Choose the format that works best for you.'
+    title: 'PDF Tools',
+    description: 'Merge multiple documents into one or split documents into separate pages. Full control over your PDFs.'
+  },
+  {
+    icon: '✨',
+    title: 'Edit & Enhance',
+    description: 'Crop, rotate, and adjust brightness and contrast. Apply filters and remove backgrounds for professional results.'
+  },
+  {
+    icon: '✍️',
+    title: 'Sign & Annotate',
+    description: 'Add digital signatures to any document. Watermark and annotate your pages with professional tools.'
+  },
+  {
+    icon: '📤',
+    title: 'Export Anywhere',
+    description: 'Export as PDF, JPEG, or PNG. Share directly from the app to email, messaging, or cloud storage.'
   },
   {
     icon: '☁️',
-    title: 'Cloud Sync',
-    description: 'Automatically sync your scans across all devices. Access your documents anytime, anywhere.'
+    title: 'Cloud Storage',
+    description: 'Store your documents securely in the cloud. Access them anytime, anywhere, on any device.'
   }
 ]
 
@@ -44,9 +44,9 @@ export default function Features() {
     <section id="features" className="features">
       <div className="features-container">
         <div className="features-header">
-          <h2 className="features-title">Powerful Features</h2>
+          <h2 className="features-title">Everything You Need</h2>
           <p className="features-subtitle">
-            Everything you need to digitize and manage your documents efficiently
+            Powerful tools that work together to scan, edit, and manage your documents efficiently
           </p>
         </div>
         <div className="features-grid">

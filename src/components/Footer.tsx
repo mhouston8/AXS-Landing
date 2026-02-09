@@ -9,34 +9,22 @@ export default function Footer() {
           <div className="footer-section">
             <h3 className="footer-logo">AxioScan</h3>
             <p className="footer-description">
-              The modern way to scan, organize, and manage your documents.
+              Turn your iPhone or iPad into a powerful document scanner. Capture, edit, and export documents with professional tools.
             </p>
           </div>
           <div className="footer-section">
             <h4 className="footer-title">Product</h4>
             <ul className="footer-links">
               <li><a href="#features">Features</a></li>
-              <li><a href="#pricing">Pricing</a></li>
               <li><a href="#how-it-works">How It Works</a></li>
-              <li><a href="#">API</a></li>
-            </ul>
-          </div>
-          <div className="footer-section">
-            <h4 className="footer-title">Company</h4>
-            <ul className="footer-links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#">Support</a></li>
             </ul>
           </div>
           <div className="footer-section">
             <h4 className="footer-title">Legal</h4>
             <ul className="footer-links">
               <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-              <li><Link to="/terms-of-service">Terms of Service</Link></li>
-              <li><a href="#">Cookie Policy</a></li>
-              <li><a href="#">Security</a></li>
+              <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Terms of Use</a></li>
             </ul>
           </div>
         </div>
